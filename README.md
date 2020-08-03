@@ -11,3 +11,7 @@ Path for user keybindings file: `$HOME/.config/Code/User/keybindings.json`
 ## Installation
 
 To install `keybindings.json` and `settings.json` you can simply run the `install.sh` bash script.
+
+```bash
+curl -L https://raw.githubusercontent.com/racoon63/vscode/master/install.sh | bash
+```
