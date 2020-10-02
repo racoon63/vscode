@@ -4,5 +4,15 @@
     "editor.rulers": [80,100],
 
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+
+    "workbench.colorCustomizations": {
+        "terminal.foreground" : "#00ff44",
+        "terminal.background" : "#181818",
+        "editor.background": "#151515"
+    }
 }
