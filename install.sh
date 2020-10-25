@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "=> Provision configurations"
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     curl -L -s -o $HOME/.config/Code/User/keybindings.json https://raw.githubusercontent.com/racoon63/vscode/master/linux/keybindings.json
     curl -L -s -o $HOME/.config/Code/User/settings.json https://raw.githubusercontent.com/racoon63/vscode/master/linux/settings.json
@@ -8,6 +9,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     curl -L -s -o $HOME/.config/Code/User/settings.json https://raw.githubusercontent.com/racoon63/vscode/master/mac/settings.json
 fi
 
+echo "=> Install extensions"
 code --install-extension deerawan.vscode-faker
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
@@ -22,3 +24,7 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension redhat.vscode-yaml
 code --install-extension softwaredotcom.music-time
 code --install-extension softwaredotcom.swdc-vscode
+code --install-extension vscoss.vscode-ansible
+code --install-extension davidanson.vscode-markdownlint
+
+echo "=> Please restart Visual Studio Code to make sure all extensions are enabled!"
