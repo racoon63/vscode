@@ -1,21 +1,5 @@
 [
     {
-        "key": "ctrl+left",
-        "command": "workbench.action.navigateLeft"
-    },
-    {
-        "key": "ctrl+right",
-        "command": "workbench.action.navigateRight"
-    },
-    {
-        "key": "ctrl+up",
-        "command": "workbench.action.navigateUp"
-    },
-    {
-        "key": "ctrl+down",
-        "command": "workbench.action.navigateDown"
-    },
-    {
         "key": "ctrl+t",
         "command": "workbench.action.terminal.focus"
     },
