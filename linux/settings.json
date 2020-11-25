@@ -14,5 +14,11 @@
         "terminal.foreground" : "#00ff44",
         "terminal.background" : "#181818",
         "editor.background": "#151515"
-    }
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "go.formatTool": "goimports",
+    "git.suggestSmartCommit": false,
+    "python.showStartPage": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai Pro"
 }

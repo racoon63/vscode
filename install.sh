@@ -22,3 +22,7 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension redhat.vscode-yaml
 code --install-extension softwaredotcom.music-time
 code --install-extension softwaredotcom.swdc-vscode
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension mechatroner.rainbow-csv
+code --install-extension monokai.theme-monokai-pro-vscode
+code --install-extension vscode-icons-team.vscode-icons
