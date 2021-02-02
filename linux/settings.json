@@ -4,7 +4,7 @@
     "editor.rulers": [80,100],
 
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 0,
@@ -16,9 +16,13 @@
         "editor.background": "#151515"
     },
     "todo-tree.tree.showScanModeButton": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.linux": "$HOME/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
     "go.formatTool": "goimports",
     "git.suggestSmartCommit": false,
     "python.showStartPage": false,
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Monokai Pro"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "vsicons.dontShowNewVersionMessage": true
 }
